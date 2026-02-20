@@ -17,7 +17,7 @@ export default async function handler(req, res) {
   )
 
   const response = await ai.models.generateContent({
-    model: "gemini-3-flash-preview",
+    model: "gemini-1.5-flash",
     contents: {
       parts: [
         { text: "Analyze and return JSON strategy." },
